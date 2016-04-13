@@ -180,7 +180,7 @@ class Bowling(object):
 
 def main():
     players = [ Player('Perfect Striker', strike_prob=1),
-                Player('Spare Genuis', strike_prob=0, spare_prob=1),
+                Player('Spare Genius', strike_prob=0, spare_prob=1),
                 Player('Striker', strike_prob=0.8),
                 Player('Newbie', strike_prob=0.5),
                 Player('Bad player', strike_prob=0.3, spare_prob=0.3) ]
